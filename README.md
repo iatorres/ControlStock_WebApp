@@ -15,6 +15,10 @@
 
 Construida con tecnologías web modernas, esta aplicación funciona completamente en el navegador del cliente, asegurando velocidad y privacidad de los datos.
 
+Nacio ante la necesidad de mi familia a manejar el Stock de un local de bebidas el cual comenzamos. Ante esta problematica, decidi aplicar lo visto en la universidad, agregando tecnologias como Tailwind CSS, que fue la unica no vista en cursada. La webApp, pudo funcionar de manera excelente.
+
+El mayor problema del proyecto fue la decision de que base de datos utilizar, termine por decidir utilizar IndexedDB el cual vive dentro del navegador web de la computadora donde se usa la app. Lo cual permite que persona que tenga acceso a esta web pueda crear su propio gestor de Stock para su negocio.
+
 ## ✨ Características Principales
 
 *   🛒 **Punto de Venta (POS) Ágil**: Interfaz optimizada para cargar ventas rápidamente. Buscador de productos en tiempo real y carrito de compras intuitivo.
