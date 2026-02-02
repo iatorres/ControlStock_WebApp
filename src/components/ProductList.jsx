@@ -13,7 +13,7 @@ export default function ProductList({ products=[], onUpdate, onDelete }){
   return (
     <div>
       <input 
-        className="w-full p-3 mb-4 bg-gray-100 dark:bg-gray-800 rounded-lg border border-gray-300 dark:border-gray-700 focus:outline-none focus:ring-2 focus:ring-primary"
+        className="w-full p-3 mb-4 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-white rounded-lg border border-gray-300 dark:border-gray-700 focus:outline-none focus:ring-2 focus:ring-primary"
         placeholder="Buscar producto..." 
         value={q} 
         onChange={e=>setQ(e.target.value)} 

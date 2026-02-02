@@ -88,7 +88,7 @@ export default function NewSalePage(){
           <h2 className="text-2xl font-bold">Productos</h2>
         </div>
         <input 
-          className="w-full p-3 mb-4 bg-gray-100 dark:bg-gray-800 rounded-lg border border-gray-300 dark:border-gray-700 focus:outline-none focus:ring-2 focus:ring-primary"
+          className="w-full p-3 mb-4 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-white rounded-lg border border-gray-300 dark:border-gray-700 focus:outline-none focus:ring-2 focus:ring-primary"
           placeholder="Buscar producto..." value={q} onChange={e=>setQ(e.target.value)} />
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
           {filteredProducts.map(p=>(
