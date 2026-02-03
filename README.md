@@ -73,7 +73,27 @@ Sigue estos pasos para correr el proyecto en tu computadora:
 3.  **Comprobante**: Se descargará automáticamente un ticket en PDF con el detalle de la compra.
 4.  **Control**: Revisa la sección **Historial** para ver las ventas pasadas.
 
-## 📝 Notas del Desarrollador
+## 📂 Estructura del Proyecto
+
+```text
+src/
+├── components/       # Componentes de la interfaz de usuario
+│   ├── Footer.jsx    # Pie de página con firma
+│   ├── HistoryPage.jsx # Página de historial de ventas
+│   ├── Navbar.jsx    # Barra de navegación y cambio de tema
+│   ├── NewSalePage.jsx # Página de punto de venta (POS)
+│   ├── ProductForm.jsx # Formulario para crear productos
+│   ├── ProductList.jsx # Tabla de inventario
+│   ├── StockPage.jsx # Página principal de stock
+│   └── Toast.jsx     # Notificaciones emergentes
+├── context/
+│   └── Store.jsx     # Estado global (Zustand) y base de datos (IndexedDB)
+├── App.jsx           # Layout principal
+├── index.css         # Estilos globales (Tailwind)
+└── main.jsx          # Punto de entrada
+```
+
+## � Notas del Desarrollador
 
 *   Este proyecto fue creado aplicando conocimientos adquiridos en la **UADE**.
 *   Actualmente es utilizado en un entorno de producción real (negocio familiar).
