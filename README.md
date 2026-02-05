@@ -99,9 +99,7 @@ src/
 *   Actualmente es utilizado en un entorno de producción real (negocio familiar).
 *   **Futuro**: Se contempla la posibilidad de empaquetar esta web app como una aplicación de escritorio nativa utilizando **Electron** o **Tauri** para una mejor integración con el sistema operativo.
 
-## ✒️ Autor
-
-**Dev Ian Torres**
+## ✒️ **Desarrollado por Ian Torres**
 
 ---
 *Hecho con ❤️ y mucho código.*
