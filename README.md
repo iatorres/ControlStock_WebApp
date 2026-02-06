@@ -93,11 +93,10 @@ src/
 └── main.jsx          # Punto de entrada
 ```
 
-## � Notas del Desarrollador
+## 📝 Notas 
 
 *   Este proyecto fue creado aplicando conocimientos adquiridos en la **UADE**.
 *   Actualmente es utilizado en un entorno de producción real (negocio familiar).
-*   **Futuro**: Se contempla la posibilidad de empaquetar esta web app como una aplicación de escritorio nativa utilizando **Electron** o **Tauri** para una mejor integración con el sistema operativo.
 
 ## ✒️ **Desarrollado por Ian Torres**
 
